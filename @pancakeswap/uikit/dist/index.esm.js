@@ -750,7 +750,7 @@ var Icon$1h = function (props) {
 var Logo$2 = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
     return (React__default.createElement(React__default.Fragment, null,
-        React__default.createElement("text", { y: "" }, "BabycakeSwap"),
+        React__default.createElement("text", { y: "" }, "PCMSwap"),
         React__default.createElement(Svg, __assign({ viewBox: "0 0 1281 199" }, props),
             React__default.createElement("circle", { cx: 100, cy: 100, r: 100, fill: "url(#paint0_linear_10493)" }),
             React__default.createElement("image", { y: "10", x: "-22", width: "250", height: "175", href: '/images/babycake/babycake.png' }),

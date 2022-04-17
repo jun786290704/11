@@ -12,7 +12,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'PCM',
     lpAddresses: {
       97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      56: '0xf35Ef2945344308bF92283CD230Cf9CD5277C492',
+      56: '0x170814A97FD5130A611Aef99CC9b1f0745636997',
     },
     token: serializedTokens.syrup,
     quoteToken: serializedTokens.wbnb,

@@ -89,7 +89,7 @@ const Home: React.FC = () => {
         <HomeBanner account={account} />
         <Hero />
       </StyledHeroSection>
-      {/* <PageSection
+      <PageSection
         innerProps={{ style: { margin: '0', width: '100%' } }}
         background={
           theme.isDark
@@ -100,7 +100,7 @@ const Home: React.FC = () => {
         hasCurvedDivider={false}
       >
         <MetricsSection />
-      </PageSection> */}
+      </PageSection>
       {/* <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}

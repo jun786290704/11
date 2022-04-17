@@ -44,7 +44,7 @@ export const useTotalSupply = () => {
 
 export const useBurnedBalance = (tokenAddress: string) => {
   const contract = useTokenContract(tokenAddress, false)
-  const { data } = useSWRContract([contract, 'balanceOf', ['0x0000000000000000000000000000000000000000']], {// 这是销毁dead 0x000000000000000000000
+  const { data } = useSWRContract([contract, 'balanceOf', ['0x000000000000000000000000000000000000dEaD']], {// 这是销毁dead 0x000000000000000000000
     refreshInterval: SLOW_INTERVAL,
   })
 

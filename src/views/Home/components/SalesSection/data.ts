@@ -54,7 +54,7 @@ export const cakeSectionData: SalesSectionProps = {
     'PCM token is at the heart of the PCMSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0xf35Ef2945344308bF92283CD230Cf9CD5277C492',
+    to: '/swap?outputCurrency=0x170814A97FD5130A611Aef99CC9b1f0745636997',
     text: 'Buy PCM',
     external: false,
   },

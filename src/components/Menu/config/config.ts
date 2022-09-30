@@ -56,8 +56,9 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       //   href: '/lottery',
       // },
       {
-        labet: t('game'),
+        labet: t('Game'),
         href: 'https://tsob.pcmswap.info',
+        type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
   },

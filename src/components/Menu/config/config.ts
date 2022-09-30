@@ -55,7 +55,10 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       //   label: t('Pancake Lottery'),
       //   href: '/lottery',
       // },
-
+      {
+        labet: t('game'),
+        href: 'https://tsob.pcmswap.info',
+      },
     ],
   },
   {
@@ -75,9 +78,6 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
         label: t('Activity'),
         href: `${nftsBaseUrl}/activity`,
       },
-      {
-        labet: t('game'),
-        href: 'https://tsob.pcmswap.info',
     ],
   },
   {
